@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Plateforme Voyage</title>
+        <link rel="stylesheet" href="css/voyages.css">
+        <script src="https://kit.fontawesome.com/d12de4cd94.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+    <body id="body">
+        <header id="header">
+                <div class="header-logo">
+                    <h2>Plateforme</h2>
+                    <img src="img/sun.png" alt="">
+                    <h2>Voyage</h2>
+                </div>
+
+                <div id="header-menu">
+                    <ul class="menuderoulant">
+                        <li><img src="img/imgcontinent/Africa-outline.png" alt="">
+                            <ul class="sousmenu">
+                                <li><a href="comores.html">Comores</a></li>
+                                <li><a href="">Algérie</a></li>
+                            </ul>
+                        </li>
+                        <li><img src="img/imgcontinent/asie.webp" alt="">
+                            <ul class="sousmenu">
+                                <li><a href="japon.html">Japon</a></li>
+                            </ul>
+                        </li>
+                        <li><img src="img/imgcontinent/amerique.png" alt="">
+                            <ul class="sousmenu">
+                                <li><a href="">USA</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </header>
+
+        <div id="container">
+            <div class="leftbox box">
+                <div id="leftboxbtn">
+                    <div class="trait-vertical"></div>
+                    <div class="leftbox-btn" onclick="location.href='#header'"></div>
+                    <div class="trait-vertical"></div>
+                    <div class="leftbox-btn" onclick="location.href='#lespaysvilles'"></div>
+                    <div class="trait-vertical"></div>
+                    <div class="leftbox-btn" onclick="location.href='#codeurs'"></div>
+                    <div class="trait-vertical"></div>
+                </div>
+            </div>
+            <div class="rightbox box">
+                <div id="rightbox-video">
+
+                    <div id="rightbox-video-text">
+                        <h1>Bienvenue sur</h1>
+                        <div class="header-logo">
+                            <h1>Plateforme</h1>
+                            <img src="img/sun.png" alt="">
+                            <h1>Voyage</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="rightbox-btnvideo">
+                    <i id="lune" class="fa-solid fa-moon" onclick="lune('body'); enleve('lune'); mettre('soleil')" style="color: black;"></i>
+                    <i id="soleil" class="fa-solid fa-sun" onclick="lune2('body'); enleve2('soleil'); mettre2('lune')"></i>
+                </div>
+                <div id="lespaysvilles">
+                    <div class="lespaysvilles-left lespaysvillesbox">
+                        <p id="lespaysvilles-left-titre">Les Pays/Villes choisis</p>
+                        <p id="lespaysvilles-left-text">Nous allons vous présenter les pays et villes que nous avons déja visité ou que nous aimerons visiter.</p>
+                        <div id="flechedroite">
+                            <img src="img/flechedroite.png" alt="">
+                        </div>
+                    </div>
+                    <div class="lespaysvilles-right lespaysvillesbox">
+                        <div class="lespaysvillesbox-box">
+                            <img src="img/imgpaysville/japonn.jpeg" alt="">
+                            <h3>Japon</h3>
+                            <p>Découvrez le Japon, un pays situé dans l'océan Pacifique. Il comporte des villes denses, des palais impériaux, des parcs nationaux montagneux ainsi que des milliers de temples et de sanctuaires.</p>
+                            <div class="paysvilles-btn paysvilles-btn-japon">
+                                <a href="japon.html">Japon</a>
+                            </div>
+                        </div>
+                        <div class="lespaysvillesbox-box yavili">
+                            <img src="img/imgpaysville/Partez-a-la-decouverte-des-Comores-lors-de-vos-prochaines-vacances.jpeg" alt="">
+                            <h3>Les Comores</h3>
+                            <p>Découvrez Les Comores, un ensemble d'îles de l'océan Indien, situées dans le nord du canal du Mozambique, au sud-est de l'Afrique, entre le littoral nord mozambicain.</p>
+                            <div class="paysvilles-btn paysvilles-btn-comore">
+                                <a href="comores.html">Comores</a>
+                            </div>
+                        </div>
+                        <div class="lespaysvillesbox-box2 yararou">
+                            <img src="img/imgpaysville/algerie.jpeg" alt="">
+                            <h3>Algérie</h3>
+                            <p>Découvrez l'Algérie, un pays nord-africain doté d'un littoral sur la mer Méditerranée et d'un intérieur désertique, le Sahara. De nombreux empires y ont laissé leur marque, comme les anciennes ruines romaines de Tipasa, en bord de mer.</p>
+                            <div class="paysvilles-btn paysvilles-btn-algerie">
+                                <a href="algerie.html">Algérie</a>
+                            </div>
+                        </div>
+                        <div class="lespaysvillesbox-box2 yavili yararou">
+                            <img src="img/imgpaysville/usa.jpeg" alt="">
+                            <h3>USA</h3>
+                            <p>Découvrez les USA, un pays constitué de 50 états et couvrant une vaste portion de l'Amérique du Nord, avec l'Alaska au nord-ouest et Hawaï étendant la présence du pays dans l'océan Pacifique.</p>
+                            <div class="paysvilles-btn paysvilles-btn-usa">
+                                <a href="usa.html">USA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="codeurs">
+                    <div class="titreh1">
+                        <h1>Les Codeurs et leur(s) page(s)</h1>
+                    </div>
+                    <div id="lescodeurs">
+
+                        <div class="lescodeurs-box">
+                            <img src="img/ben.png" alt="">
+                            <div class="lescodeurs-info">
+                                <p><span class="text-spe">Nom : </span>MMADI</p>
+                                <p><span class="text-spe">Prénom : </span>Ben Youssam</p>
+                                <p><span class="text-spe">Age : </span>18</p>
+                                <p><span class="text-spe">Nationnalité : </span>Comorienne</p>
+                            </div>
+                            <div class="lescodeurs-page">
+                                <div class="titreh3">
+                                    <h3>Les Pages :</h3>
+                                </div>
+
+                                <div class="paysvilles-btn2">
+                                    <a href="#">Acceuil</a>
+                                </div>
+                                <div class="paysvilles-btn2">
+                                    <a href="comores.html">Comores</a>
+                                </div>
+                                <div class="paysvilles-btn2">
+                                    <a href="japon.html">Japon</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lescodeurs-box">
+                            <img src="img/redha.png" alt="">
+                            <div class="lescodeurs-info">
+                                <p><span class="text-spe">Nom : </span>BOUREZGUE</p>
+                                <p><span class="text-spe">Prénom : </span>Redha</p>
+                                <p><span class="text-spe">Age : </span>20</p>
+                                <p><span class="text-spe">Nationnalité : </span>Algérienne</p>
+                            </div>
+                            <div class="lescodeurs-page">
+                                <div class="titreh3">
+                                    <h3>La Page :</h3>
+                                </div>
+
+                                <div class="paysvilles-btn2">
+                                    <a href="algerie.html">Algérie</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lescodeurs-box">
+                            <img src="img/ali.png" alt="">
+                            <div class="lescodeurs-info">
+                                <p><span class="text-spe">Nom : </span>TALHA</p>
+                                <p><span class="text-spe">Prénom : </span>Ali</p>
+                                <p><span class="text-spe">Age : </span>20</p>
+                                <p><span class="text-spe">Nationnalité : </span>Algérienne</p>
+                            </div>
+                            <div class="lescodeurs-page">
+                                <div class="titreh3">
+                                    <h3>La Page :</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="lescodeurs-box">
+                            <img src="img/sami.png" alt="">
+                            <div class="lescodeurs-info">
+                                <p><span class="text-spe">Nom : </span>MEBARKI</p>
+                                <p><span class="text-spe">Prénom : </span>Sami</p>
+                                <p><span class="text-spe">Age : </span>19</p>
+                                <p><span class="text-spe">Nationnalité : </span>Algérienne</p>
+                            </div>
+                            <div class="lescodeurs-page">
+                                <div class="titreh3">
+                                    <h3>La Page :</h3>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+!

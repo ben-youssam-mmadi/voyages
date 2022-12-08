@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    /* ******CHANGER AVEC JS****** */
+    display: flex;
+    justify-content: center;
+
+    color: #fff;
+    background-color: #000000;
+}
+body #bouton-comore{
+    margin-top: 35vh;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+body #bouton-comore:hover{
+    width: 110px;
+    height: 110px;
+    transition: 0.7s;
+    outline: 3px solid #fff;
+    outline-offset: 7px;
+    -webkit-box-shadow: 0px 0px 15px 5px #fff; 
+    box-shadow: 0px 0px 15px 5px #fff;
+    cursor: pointer;
+}
+body #header, body #div{
+    display: none;
+}
+.titreh1{
+    text-align: center;
+    margin-bottom: 70px;
+    color: #c4e5fc;
+    background-color: #000000ac;
+    border-radius: 50px;
+    font-family: 'Zen Dots', cursive;
+    padding: 10px 0;
+}
+.titreh2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.kamska .titreh2{
+    margin-bottom: 50px;
+}
+ul{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+ol{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.textgrand{
+    font-size: 2em;
+}
+p{
+    margin-top: 10px;
+    line-height: 1.4em;
+}
+.titreminibox{
+    text-align: center; font-size: 2em;
+}
+#culture-container .titreh1, #touristique-container .titreh1{
+    margin: 40px 164px;
+}
+/* ***************HEADER**************** */
+header{
+    padding: 30px 40px;
+}
+header div{
+    display: inline-block;
+}
+#header-logo{
+    width: 17%;
+    display: flex;
+    justify-content: space-around;
+}
+#header-logo img{
+    width: 30px;
+}
+#header-acceuil{
+    float: right;
+    margin-top: -20px;
+}
+#header-acceuil a{
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: #f6de7a;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+#header-acceuil a:hover{
+    color: #f6de7a;
+    background-color: #fff;
+    font-size: 1.6em;
+    transition: 0.7s;
+}
+/* ***************CONTAINER**************** */
+    /* ************DIRECTION************* */
+#direction{
+    margin: 1.875em 10.25em;
+}
+#direction-choix{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.direction-choix-choix{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.direction-choix-choix p{
+    font-size: 1.5em;
+}
+.direction-choix-choix p:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #f6de7a;
+}
+    /* ************INTRO************* */
+#intro{
+    margin-top: 100px;
+    background: url(../img/imgcomore/background/back-intro.jpeg) 50% 50% fixed;
+    background-size: cover;
+    padding: 20px 0 10px 0;
+}
+#intro-text{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 70px;
+    padding: 20px;
+    border: 5px solid #70b262;
+    border-radius: 40px 0px 40px 0px;
+    background-color: #000000b4;
+}
+        /* ************SLIDER************* */
+
+        #intro-slider{
+            padding: 20px -70px;
+        }
+        #slideshow {
+            margin:35px auto;
+            white-space:nowrap;
+            display:block;
+            overflow:hidden;
+        }
+            
+        #slideshow div {
+            display:inline-block;
+            vertical-align:middle;
+            text-align:center;
+            width:100%;
+            height:100%;
+        }
+            
+        #slideshow div img {
+            margin:0;
+            width: 650px;
+            height: 450px;
+            max-width:100%;
+            max-height:100%;
+            border: 5px solid #658160;
+        }
+            
+            /*animation*/
+        slides {  
+            animation: slide 20s cubic-bezier(0.725, 0.005, 0.395, 1.000) infinite;
+        }
+
+        @keyframes slide {
+            10% {margin-left:0}
+            20% {margin-left:-100%;}
+            30% {margin-left:-100%;}
+            40% {margin-left:-200%;}
+            50% {margin-left:-200%;}
+            60% {margin-left:-300%;}
+            70% {margin-left:-300%;}
+            80% {margin-left:-400%;}
+            90% {margin-left:-400%;}
+            100% {margin-left:0;}
+        }
+
+    /* ************INFO************* */
+#info{
+    margin: 0 100px;
+}
+#info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.info-container-box{
+    width: 45%;
+    border: 3px solid #fff;
+}
+.info-container-box:hover{
+    background-color: #00000072;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    transition: 0.9s;
+}
+.info-container-box .titreh2{
+    margin-top: 20px;
+}
+.info-container-box p{
+    font-size: 1.2em;
+    padding: 0 15px 10px 15px;
+}
+.info-container-box-img{
+    margin: 30px 0;
+    width: 100%;
+    height: 400px;
+}
+.info-container-box-img1{
+    margin: 30px 0;
+    width: 100%;
+    height: 460px;
+}
+.info-container-box-img img{
+    width: 100%;
+    height: 100%;
+}
+#info-container{
+    margin: 70px 30px;
+}
+
+    /* ************TOURISTIQUE************* */
+#touristique{
+    background: url(../img/imgcomore/background/back-tourisme.jpeg) fixed;
+    background-size: cover;
+    padding: 30px 0;
+}
+#touristique-container-box1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+.touristique-leftbox{
+    width: 55%;
+}
+.touristique-rightbox{
+    width: 30%;
+}
+
+.touristique-leftbox-box-box{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    border: 3px groove #000000;
+    padding-bottom: 20px;
+    background-color: #5BB7D1;
+}
+.touristique-leftbox-box-box:nth-child(3n), .touristique-leftbox-box-box:last-child{
+    margin-top: 30px;
+}
+.touristique-leftbox-box-box:nth-child(2n), .touristique-leftbox-box-box:last-child{
+    margin-left: 30px;
+}
+.touristique-leftbox-box-box img{
+    width: 100%;
+    height: 210px;
+}
+.touristique-leftbox-box-box p{
+    padding: 0 20px;
+}
+.touristique-rightbox-box{
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 60px;
+    border: 2px solid black;
+}
+.touristique-rightbox-box div{
+    opacity: 0;
+    color: #fff;
+}
+.touristique-rightbox-box p{
+    font-weight: bold;
+    text-shadow: 3px 2px 3px #000000;
+}
+.touristique-rightbox-box:hover{
+    border: 2px solid #5BB7D1;
+}
+.touristique-rightbox-box:hover div{
+    transition: 1s;
+    opacity: 1;
+}
+.touristique-rightbox-box1{
+    background: url(../img/imgcomore/background/montkarthala.jpeg);
+    background-size: cover;
+}
+.touristique-rightbox-box2{
+    background: url(../img/imgcomore/background/moroni.jpeg);
+    background-size: cover;
+}
+.touristique-rightbox-box3{
+    background: url(../img/imgcomore/background/musee.png);
+    background-size: cover;
+}
+#touristique-container-box2{
+    background-color: #5bb8d1ec;
+    padding: 30px;
+    margin: 0 100px;
+    border-radius: 20px;
+}
+#touristique-box-text{
+    font-size: 1.3em;
+    text-align: center;
+}
+    /* ************CULTURE************* */
+#culture{
+    padding: 30px 0;
+}
+#culture-container-box-middle-box{
+    margin: 0 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-box-box{
+    width: 20%;
+}
+.middle-box-box h2{
+    text-align: center;
+    margin: 15px 0;
+}
+.middle-box-box-img img{
+    width: 100%;
+    height: 140px;
+    border-radius: 70px;
+}
+.middle-box-box-text{
+    text-align: center;
+}
+.culture-container-box{
+    margin: 60px 0;
+}
+.culture-container-box-right{
+    margin-right: 40px;
+    margin-left: 150px;
+}
+.culture-container-box-left{
+    margin-right: 150px;
+    margin-left: 40px;
+}
+.culture-container-boxx{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000073;
+    padding: 30px;
+    border-radius: 40px;
+}
+.culture-container-box-img{
+    display: flex;
+    align-items: center;
+}
+.culture-container-box-img img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #70b262;
+}
+.culture-container-box-text{
+    margin: 0 20px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}

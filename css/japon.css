@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.titreh1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.titreh2{
+    text-align: center;
+}
+/* *******************RAPIDE********************* */
+#platramen1313{
+    border-radius: 30px;
+}
+.lasnlk{
+    margin: 0 20px;
+}
+#sjoo{
+    position: absolute;
+    bottom: 0;
+    margin: 0 20px;
+}
+#sjoo p{
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 2px rgb(0, 0, 0);
+}
+/* *******************HEADER********************* */
+#header-logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+}
+#header-logo img{
+    width: 30px;
+    height: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+#header-acceuil{
+    display: flex;
+}
+#header-acceuil a{
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: #f1494f;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+#header-acceuil a:hover{
+    transition: 0.5s;
+    font-size: 1.4em;
+    background-color: #E7E7E7;
+    color: #f1494f;
+}
+/* *******************SOUSHEADER********************* */
+#sousheader{
+    margin-bottom: 50px;
+}
+.sousheader-container-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+.sousheader-container-haut{
+    margin-bottom: -90px;
+}
+.sousheader-container-bas{
+    margin-top: -90px;
+}
+#sousheader-container-middle{
+    display: flex;
+    justify-content: center;
+}
+#sousheader-container-middle img{
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.sousheader-container-box-contain{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    padding: 10px;
+    border-radius: 30px;
+}
+.sousheader-container-box-contain:hover{
+    background-color: #f1494f;
+    border-radius: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+}
+.sousheader-container-box-contain-img{
+    background-color: #E7E7E7;
+    border-radius: 50%;
+    padding: 30px;
+}
+.sousheader-container-box-contain-img img{
+    width: 100px;
+    height: 100px;
+}
+.scbct-text{
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.scbct-textleft{
+    margin-right: 10px;
+}
+.scbct-textright{
+    margin-left: 10px;
+}
+
+/* *******************MAIN********************* */
+
+/* *******************NOURRITURE********************* */
+#nourriture{
+    padding: 40px 0;
+    background-color: #ED3C1F;
+}
+.nourriture-content{
+    background-color: #F7E3C3;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 100px;
+    border-radius: 30px;
+    outline: 2px solid #F7E3C3;
+    outline-offset: 20px;
+}
+.nourriture-container{
+    width: 49%;
+}
+.nc_change{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nourriture-container-box img{
+    width: 100%;
+}
+.ncb-textjaponnais{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ED3C1F;
+}
+.ncb-titre{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.ncb-text{
+    font-size: 1.2em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* *******************MONUMENTS********************* */
+#monuments{
+    padding: 40px 0;
+    background-color: #F1E9E3;
+}
+#monuments-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 180px;
+}
+.monuments-container-box{
+    width: 47%;
+    background-color: #F4EFEB;
+    display: flex;
+    border: 1px solid #000000;
+}
+.monuments-container-leftbox{
+    background: url(../img/imgjapon/templebouddhiste.jpeg) no-repeat;
+    background-size: cover;
+}
+.mcb-left{
+    width: 20%;
+}
+.mcb-right{
+    width: 80%;
+}
+.monuments-container-leftbox .mcb-right{
+    position: relative;
+    color: #fff;
+}
+.monuments-container-leftbox .mcb-left{
+    background-color: #000000b4;
+}
+.mcb-right img{
+    width: 100%;
+    height: 31.25em;
+}
+.mcb-right-titre{
+    text-align: center;
+    font-size: 2em;
+    margin: 1.25em 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: bold;
+}
+.mcb-right-text p:last-child{
+    margin-bottom: 2.5em;
+}
+.monuments-container-leftbox .mcb-left p{
+    font-size: 4em;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: bold;
+    margin-left: 3.125em;
+}
+.monuments-container-rightbox .mcb-left p{
+    font-size: 2em;
+    text-align: center;
+}
+.monuments-container-leftbox .mcb-left p:first-child{
+    margin-top: 6.25em;
+}
+.mcb-left-trait{
+    width: 50%;
+    height: 37%;
+    border-right: 3px solid #000000;
+}
+
+/* *******************MYTHOLOGIE********************* */
+#mythologie{
+    border: 2px solid #000000;
+    background-color: #D6CAB1;
+}
+#mythologie-container{
+    display: flex;
+    justify-content: space-between;
+}
+.mythologie-container-leftbox{
+    width: 20%;
+    background-color: #CC7866;
+    position: relative;
+}
+.mythologie-container-rightbox{
+    width: 79%;
+}
+#mcr-box-haut-genese{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+#mcr-box-haut-genese-img img{
+    width: 250px;
+    border: 2px solid #000000;
+}
+.mcr-box-haut{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+#mcl-titre{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    color: #D6CAB1;
+}
+#mcl-text{
+    margin: 0 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    margin-top: 100px;
+}
+#mcl-img{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+}
+#mcl-img img{
+    width: 100%;
+}
+#mcr-box-haut-genese-date{
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+#mcr-box-haut-genese-nom{
+    font-size: 1.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+#mcr-box-haut-genese-img{
+    display: flex;
+    align-items: center;
+}
+#mcr-box-haut-genese2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.mcr-box-bas{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#mbb-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.mbb-container-box{
+    width: 30%;
+    border: 2px solid #000000;
+}
+.mbb-container-box-img img{
+    width: 100%;
+    height: 250px;
+}
+.mbb-container-box-titre{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 20px 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+.mbb-container-box-text{
+    margin: 0 20px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* *******************SAMOURAIS********************* */
+#samourais{
+    padding: 40px 0;
+    border: 2px solid #ed3c1f;
+    margin-top: 1px;
+}
+.samourais-container1{
+    display: flex;
+    margin: 0 40px;
+}
+.samourais-container1-leftbox, .samourais-container1-rightbox{
+    width: 25%;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.samourais-container1-leftbox{
+    font-size: 3.6em;
+}
+.samourais-container1-middlebox{
+    width: 50%;
+}
+.samourais-container1-middlebox img{
+    width: 100%;
+}
+.samourais-container2{
+    background-color: #2F2E2D;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+.samourais-container3{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+.samourais-container2-leftbox, .samourais-container3-leftbox{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.samourais-container2-rightbox{
+    width: 40%;
+}
+.samourais-container3-rightbox{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.samourais-container2-rightbox img, .samourais-container3-rightbox img{
+    width: 100%;
+}
+.sc2b-content-titre{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3em;
+    color: #E2D34F;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sc3b-content-titre{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3em;
+    color: #8A5C58;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sc2b-content-text{
+    font-size: 1.5em;
+    margin: 0 50px;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sc3b-content-text{
+    font-size: 1.1em;
+    margin: 0 50px;
+    color: #000000;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sc3b-content-histoire{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.sch-leftbox{
+    width: 20%;
+    margin-left: 30px;
+}
+.sch-rightbox{
+    width: 80%;
+}
+.sch-leftbox-point{
+    width: 20px;
+    height: 20px;
+    background-color: #ed3c1f;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.sch-leftbox-trait{
+    width: 2px;
+    height: 190px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+.sch-rightbox-content-titre{
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+
+}
+.sch-rightbox-content-texte{
+    font-size: 1.1em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sch-rightbox-content1{
+    margin-top: -7px;
+}
+.sch-rightbox-content2{
+    margin-top: 75px;
+}
+.sch-rightbox-content3{
+    margin-top: 27px;
+}
+.sch-rightbox-content4{
+    margin-top: 52px;
+}
